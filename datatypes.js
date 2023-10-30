@@ -23,6 +23,8 @@ var numList;
 emplis = ['yash', 'baby'];
 numList = [1, 2, 3];
 var results = numList.filter(function (num) { return num > 2; });
+var reducee = numList.reduce(function (acc, num) { return acc + num; });
 console.log(emplis);
 console.log(numList);
 console.log(results);
+console.log(reducee);

@@ -31,6 +31,29 @@ let numList:Array<number>;
 emplis=['yash','baby'];
 numList=[1,2,3];
 let results=numList.filter((num)=>num>2);
+let reducee=numList.reduce((acc,num)=>acc+num);
 console.log(emplis);
 console.log(numList);
 console.log(results);
+console.log(reducee);
+
+
+// 5- enum 
+const enum Color
+{
+    red,
+    yellow,
+    white
+}
+let c:Color=Color.red;
+
+// tuples
+
+// any
+
+let department:any;  // not use any data types always use correct data types
+department="it";
+department=10;
+
+// void 
+// never
